@@ -1,8 +1,12 @@
+import PeriodicTable from './components/PeriodicTable';
+import GlobalStyle from './styles/GlobalStyle';
+
 function App() {
   return (
-    <div>
-      <h1>Hello world!</h1>
-    </div>
+    <>
+      <GlobalStyle />
+      <PeriodicTable />
+    </>
   );
 }
 
